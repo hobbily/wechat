@@ -150,7 +150,7 @@ class Application extends Container
             !$config->has($key) || $config[$key] = '***'.substr($config[$key], -5);
         }
 
-        Log::debug('Current config:', $config->toArray());
+        //Log::debug('Current config:', $config->toArray());
     }
 
     /**
